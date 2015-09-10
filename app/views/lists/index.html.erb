@@ -1,7 +1,11 @@
 <h2>States</h2>
 
-<p>Put your code here...</p>
+<% @states.each do |state| %>
+<p><%= state.name %></p>
+<% end %>
 
 <h2>Cities</h2>
 
-<p>Put your code here...</p>
+<% @cities.each do |city| %>
+<p><%= city.name %></p>
+<% end %>
